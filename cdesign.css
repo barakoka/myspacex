@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Orbitron:300,400,500,600');
+
+
+* {background: rgb(0, 0, 0); padding: 0; margin: 0; border: 0; }
+
+#mainBlock {
+    display: flex; 
+    justify-content: center;   
+    font-family: 'Arial', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    /*align-self: center;*/
+}
+
+#head-block {
+    display: flex; 
+    justify-content: center;
+}
+
+.block {
+    width: 100%;
+}
+
+.head-image{width: 720px;}
+
+#leftBlock {width: 50px;}
+#rightBlock {width: 50px;}
+#centralBlock {width: 620px;}
+#time-alarms {display: flex;}
+#PWR {display: flex; height: 150px;}
+#last-row {display: flex;}
+#time-timer {width: 50%;}
+#time {height: 80px;}
+#timer {height: 110px;}
+#alarms {width: 50%;}
+#override {width: 33%;}
+#reset {width: 67%;}
+#chutes {width: 33%; height: 120px;}
+#trunk {width: 33%;}
+#emergency {width: 33%; border-color: yellow;}
+#secondtime {position: relative; bottom: -20px; height: 30px;}
+
+.row {height: 20px;}
+.col {width: 10px;}
+
+.sector {
+    border: 2px rgb(240,225,210) solid;
+    border-radius: 15px;
+}
+
+.dial {
+    position: relative;
+    color: rgb(249,235,100);
+    /*background: rgb(74,56,24);*/
+    font-family: 'Orbitron', cursive;
+    font-weight: 600;
+    font-size: 28px;
+    letter-spacing: 5px;
+    padding: 10px 2px 2px 10px;
+    z-index: 1;
+}
+
+.dial:before {
+    left: 8px;
+    content: '000:00:00:00';
+    position: absolute;
+    color: rgb(157,115,83);
+    z-index: -1;
+}
+
+.dial2 {
+    position: relative;
+    color: rgb(249,235,100);
+    /*background: rgb(74,56,24);*/
+    font-family: 'Orbitron', cursive;
+    font-weight: 600;
+    font-size: 28px;
+    letter-spacing: 5px;
+    padding: 10px 2px 2px 10px;
+    z-index: 1;
+}
+
+.dial2:before {
+    left: 8px;
+    content: '00:00:00';
+    position: absolute;
+    color: rgb(157,115,83);
+    z-index: -1;
+  }
+
+.blockheader1 {
+    background: black;
+    color: white;
+    padding: 5px;
+    position: relative;
+    top: -10px;
+    left: 42%;
+    font-size: 14pt;
+}
+
+.blockheader2 {
+    background: black;
+    color: white;
+    padding: 5px;
+    position: relative;
+    top: -10px;
+    left: 39%;
+    font-size: 14pt;
+}
+
+.blockheader3 {
+    background: black;
+    color: white;
+    padding: 5px;
+    position: relative;
+    top: -10px;
+    left: 10%;
+    font-size: 14pt;
+}
+
+.blockheader4 {
+    background: black;
+    color: white;
+    padding: 5px;
+    position: relative;
+    top: -10px;
+    left: 36%;
+    font-size: 14pt;
+}
+
+.blockheader5 {
+    background: black;
+    color: white;
+    padding: 5px;
+    position: relative;
+    top: -10px;
+    left: 4%;
+    font-size: 14pt;
+}
+
+.blockheader6 {
+    background: black;
+    color: white;
+    padding: 5px;
+    position: relative;
+    top: -10px;
+    left: 7%;
+    font-size: 14pt;
+}
+
+.blockheader7 {
+    background: black;
+    color: yellow;
+    padding: 5px;
+    position: relative;
+    top: -10px;
+    left: 16%;
+    font-size: 14pt;
+}
+
+.inblock {display: flex;}
+
+.midbut {
+    width: 18px;
+    background-color: black;
+}
+
+.midnum {
+    width: 8px;
+    background-color: black;
+}
+
+.arrbut {padding: 5px; background-color: #222; border-radius: 5px;}
+
+.button {
+    width: 54px;
+    height: 54px;
+    background: radial-gradient(#55ddff, #0081b5);
+    color: black;
+    border: 3px solid black;
+    text-align: center;
+    border-radius: 5px;
+    user-select: none;
+}
+
+.rowinblock {height: 20px; display: flex;}
+
+.cent {width: 100%; text-align: center;}
+
+.tb {width: 50%; color: yellow; text-align: center;}
+
+.timedisp {
+    width: 100%;
+    height: 50px;
+    background: rgb(180, 159, 62);
+    color: darkorange;
+    border-radius: 5px;
+    font-size: 48px;
+}
+
+.blanck {
+    height: 100px;  
+}
+
+.arrredbut {padding: 5px; background-color: black;}
+
+.redbutton {
+    width: 90px;
+    height: 28px;
+    background: radial-gradient(#500000, #250000);
+    border: 3px solid #222;
+    text-align: center;
+    border-radius: 5px;
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SpaceX-Control Panel</title>
+    <link rel="stylesheet" type="text/css" href="cdesign.css">
+    <script src="brains.js"></script>
+  </head>
+  <body>
+    <div id="head-block" class="block">
+        <img class="head-image" src="head-space-x-logo.jpg"/>
+    </div>
+
+    <div id="mainBlock" class="block">
+        <div id="leftBlock"></div>
+        <div id="centralBlock">
+            <div id="time-alarms">
+                <div id="time-timer">
+                    <div id="time" class="sector">
+                        <span class="blockheader1"><b>TIME</b></span>
+                        <div class="inblock">
+                            <div class="midnum"></div>
+                            <div id="firstime" class="dial">880:87:30:00</div>
+                            <div class="midnum"></div>
+                        </div>
+                    </div>
+                    <div class="row"></div>
+                    <div id="timer" class="sector">
+                        <span class="blockheader2"><b>TIMER</b></span>
+                        <div class="inblock">
+                            <div class="midbut"></div>
+                            <div class="arrbut">
+                                <div class="button">START<br>STOP<br>RESET</div>
+                            </div>
+                            <div class="midnum"></div>
+                            <div id="secondtime" class="dial2">22:35:30</div>
+                            <div class="midnum"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col"></div>
+                <div id="alarms" class="sector">
+                    <span  class="blockheader4"><b>ALARMS</b></span>
+                    <div class="inblock">
+                        <div class="midbut"></div>
+                        <div class="">
+                            <div class="blanck"></div>
+                            <div class="arrbut">
+                                <div class="button"><br>ACK</div>
+                            </div>
+                        </div>
+                        <div id="table" class="inblock">
+                            <div id="t1">
+                                <div class="arrredbut">
+                                    <div id="t11" class="redbutton"></div>
+                                </div>
+                                <div class="arrredbut">
+                                    <div id="t12" class="redbutton"></div>
+                                </div>
+                                <div class="arrredbut">
+                                    <div id="t13" class="redbutton"></div>
+                                </div>
+                                <div class="arrredbut">
+                                    <div id="t14" class="redbutton"></div>
+                                </div>
+                            </div>
+                            <div id="t2">
+                                <div class="arrredbut">
+                                    <div id="t21" class="redbutton"></div>
+                                </div>
+                                <div class="arrredbut">
+                                    <div id="t22" class="redbutton"></div>
+                                </div>
+                                <div class="arrredbut">
+                                    <div id="t23" class="redbutton"></div>
+                                </div>
+                                <div class="arrredbut">
+                                    <div id="t24" class="redbutton"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row"></div>
+
+            <div id="PWR">
+                <div id="override" class="sector">
+                    <span class="blockheader3"><b>PWR OVERRIDE</b></span>
+                </div>
+                <div class="col"></div>
+                <div id="reset" class="sector">
+                    <span class="blockheader4"><b>PWR RESET</b></span>
+                </div>
+            </div>
+
+            <div class="row"></div>
+
+            <div id="last-row">
+                <div id="chutes" class="sector">
+                    <span class="blockheader5"><b>CHUTES RELEASE</b></span>
+                    <div class="rowinblock">
+                        <div class="cent"><b>ON GROUND ONLY</b></div>
+                    </div>
+                    <div class="inblock">
+                        <div class="midbut"></div>
+                        <div class="arrbut">
+                            <div class="button"><br>ARM</div>
+                        </div>
+                        <div class="midbut"></div>
+                        <div class="arrbut">
+                            <div class="button"><br>FIRE</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col"></div>
+                <div id="trunk" class="sector">
+                    <span class="blockheader6"><b>TRUNK RELEASE</b></span>
+                    <div class="rowinblock"></div>
+                    <div class="inblock">
+                        <div class="midbut"></div>
+                        <div class="arrbut">
+                            <div class="button"><br>ARM</div>
+                        </div>
+                        <div class="midbut"></div>
+                        <div class="arrbut">
+                            <div class="button"><br>FIRE</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col"></div>
+                <div id="emergency" class="sector">
+                    <span class="blockheader7"><b>EMERGENCY</b></span>
+                    <div class="rowinblock">
+                        <div class="midbut"></div>
+                        <div class="tb"><b>FIRE</b></div>
+                        <div class="midbut"></div>
+                        <div class="tb"><b>DP/DT</b></div>
+                        <div class="midbut"></div>
+                    </div>
+                    <div class="inblock">
+                        <div class="midbut"></div>
+                        <div class="arrbut">
+                            <div class="button"><br>EXEC</div>
+                        </div>
+                        <div class="midbut"></div>
+                        <div class="arrbut">
+                            <div class="button"><br>EXEC</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="rightBlock"></div>
+    </div>
+  </body>
+</html>
